@@ -1,5 +1,5 @@
 {
-  "name": "CoCreate-image",
+  "name": "@CoCreate/image",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -11,8 +11,8 @@
     "type": "git",
     "url": "git+https://github.com/CoCreate-app/CoCreate-image.git"
   },
-  "author": "Frank Pagan",
-  "license": "ISC",
+  "author": "CoCreate LLC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/CoCreate-app/CoCreate-image/issues"
   },
