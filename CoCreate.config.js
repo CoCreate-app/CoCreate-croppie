@@ -9,7 +9,7 @@ module.exports = {
     sources: [{
             path: "./docs/index.html",
             collection: "files",
-            document_id: "",
+            document_id: "6028194771064611a678a197",
             key: "html",
             data:{
                 name: "Croppie Doc",
@@ -19,10 +19,10 @@ module.exports = {
    
     crud: [{
             collection: "routes",
-            document_id: "",
+            document_id: "6028194771064611a678a196",
             data:{
                 collection: "files",
-                document_id: "",
+                document_id: "6028194771064611a678a197",
                 name: "html",
                 domains: ["cocreate.app", "server.cocreate.app", "ws.cocreate.app"],
                 route: "/docs/croppie",
