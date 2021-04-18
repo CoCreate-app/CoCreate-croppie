@@ -9,7 +9,7 @@ A simple croppie component in vanilla javascript. Easily configured using HTML5 
 
 ![CoCreate-croppie](https://cdn.cocreate.app/docs/CoCreate-croppie.gif)
 
-## [Docs & Demo](https://cocreate.app/docs/clone)
+## [Docs & Demo](https://cocreate.app/docs/croppie)
 
 For a complete guide and working demo refer to the [doumentation](https://cocreate.app/docs/croppie)
 
