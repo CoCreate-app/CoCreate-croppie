@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.0.3...v1.0.4) (2021-04-27)
+
+
+### Bug Fixes
+
+* Update to readme, demo, added cdn scripts ([bc93041](https://github.com/CoCreate-app/CoCreate-croppie/commit/bc93041e32c64b88bcb495ea68c0073dd8dab717))
+
 ## [1.0.3](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.0.2...v1.0.3) (2021-04-23)
 
 
