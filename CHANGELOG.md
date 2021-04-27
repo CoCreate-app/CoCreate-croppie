@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.0.4...v1.0.5) (2021-04-27)
+
+
+### Bug Fixes
+
+* add host in docs ([f93bc55](https://github.com/CoCreate-app/CoCreate-croppie/commit/f93bc558bce407deb291271fc289517ac9293def))
+
 ## [1.0.4](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.0.3...v1.0.4) (2021-04-27)
 
 
