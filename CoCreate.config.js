@@ -10,7 +10,7 @@ module.exports = {
             "path": "./docs/index.html",
             "collection": "files",
             "document_id": "6028194771064611a678a197",
-            "key": "html",
+            "key": "src",
             "data":{
                 "name": "croppie Doc",
                 "domains": ["cocreate.app", "server.cocreate.app", "ws.cocreate.app"],
