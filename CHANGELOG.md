@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.0.5...v1.0.6) (2021-05-08)
+
+
+### Bug Fixes
+
+* add css auto parse and save to docs. ([18cbf3a](https://github.com/CoCreate-app/CoCreate-croppie/commit/18cbf3a59010e1fab726f6a6aba9a97853a1108b))
+
 ## [1.0.5](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.0.4...v1.0.5) (2021-04-27)
 
 
