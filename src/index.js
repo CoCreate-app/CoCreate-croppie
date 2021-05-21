@@ -1,228 +1,176 @@
-let awsOption = {
-  region: 'us-east-1',
-  accessKeyId: 'AKIAZKETJ5PSTFJ54J7O',
-  secretAccessKey: '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',
-}
-
-var s3 = new AWS.S3(awsOption);
-
-function uploadFile(file, name, callback) {
-  let params = {
-    Bucket: 'cocreate-test',
-    Key: name,
-    Body: file,
-    ACL: 'public-read-write'
-  }
-  
-  s3.upload(params, function(error, data) {
-    callback(error, data);
-  })
-}
-
-function uploadImageData(data, name, callback) {
-  
-  var file = dataURLtoFile(data, name);
-  
-  let params = {
-    Bucket: 'cocreate-test',
-    Key: name,
-    Body: file,
-    ACL: 'public-read-write'
-  }
-  
-  s3.upload(params, function(error, data) {
-    callback(error, data);
-  })
-}
+import croppie from 'croppie';
+import crud from '@cocreate/crud-client';
+import action from '@cocreate/action';
 
 
-function dataURLtoFile(dataurl, filename) {
- 
-  var arr = dataurl.split(','),
-    mime = arr[0].match(/:(.*?);/)[1],
-    bstr = atob(arr[1]), 
-    n = bstr.length, 
-    u8arr = new Uint8Array(n);
-      
-  while(n--){
-      u8arr[n] = bstr.charCodeAt(n);
-  }
+const CocreateCroppie = {
   
-  return new File([u8arr], filename, {type:mime});
-}
-
-var imageUploaders = [];
-
-
-
-function ImageUploder(el) {
-  let eId = el.id;
-  let croppie = el.querySelector('.croppie');
-  let fileTag = el.querySelector("input[type='file']");
-  
-  if (!eId || !croppie) return false;
-  
-  let resizer = new Croppie(el, {
-    boundary: { width: 300, height: 300 },
-    viewport: { width: 200, height: 200 },
-    showZoomer: true,
-    // enableResize: true,
-    enableOrientation: true,
-    enableZoom: true,
-    mouseWheelZoom: 'ctrl'
-  });
-  
-  if (fileTag) {
-    fileTag.addEventListener('change', function(e) {
-      if (this.files.length == 0) return;
-      
-      let file = this.files[0];
-      
-      let reader = new FileReader();
-      
-      reader.onload = function(e) {
-        resizer.bind({
-          url: e.target.result
-        })
-      };
-      
-      reader.readAsDataURL(file);
-    })
-  }
-  
-  el.addEventListener('uploadImage', function(e) {
-    let url = e.detail.url;
+   debug : true,
+   selector_element : '[editor="croppie"]',
+   selector_croppie : '.croppie',
+   croppieElements : [],
+   croppieObjs : [],
     
-    console.log(url);
+    displayErrors : function(msg) {
+      if(this.debug)
+        console.error(msg)
+    },
     
-    let id = this.id;
+    init : function() {
+        this.croppieElements = document.querySelectorAll(this.selector_element);
+        for (let i=0; i < this.croppieElements.length; i++) {
+          this.initCroppie(this.croppieElements[i]);
+        }
+    },
     
-    let imageInputs = document.querySelectorAll("[data-uploader_id='" + id  + "'].imageInput");
-    
-    for (let i=0; i<imageInputs.length; i++) {
-      let imageInput = imageInputs[i];
-      
-      imageInput.value = url;
-    }
-  })
-
-  return {
-    eId: eId,
-    croppie: croppie,
-    fileTag: fileTag,
-    el: el,
-    resizer: resizer,
-    bind: null
-  }
-}
-
-function getCropResult(uploader, callback) {
-  uploader.resizer.result('base64').then(function(base64) {
-    
-    callback(base64);
-    
-  });
-}
-
-function initImageuploaders() {
-  let uploaderElements = document.querySelectorAll('.image-uploader');
-  
-  for (let i=0; i < uploaderElements.length; i++) {
-    let uploaderElement = uploaderElements[i];;
-    
-    initImageUploader(uploaderElement);
-  }
-}
-
-function initImageUploader(uploaderElement) {
-  let uploader = ImageUploder(uploaderElement);
-  
-  if (uploader) imageUploaders.push(uploader);
-}
-
-function bindImageToUploader(uploader, file) {
-  
-}
-
-function triggerBindToUploader(uploader) {
-  let fileTag = uploader.fileTag;
-  
-  if (fileTag) fileTag.click();
-}
-
-function getUploaderById(eId) {
-  for (let i=0; i < imageUploaders.length; i++) {
-    if (imageUploaders[i].eId == eId) return imageUploaders[i]
-  }
-  
-  return false;
-}
-
-function initUploaderButtons() {
-  let uploadBtns = document.querySelectorAll('.imageUpload');
-  
-  for (let i = 0; i < uploadBtns.length; i++) {
-    let uploadBtn = uploadBtns[i];
-    
-    uploadBtn.addEventListener('click', function(e) {
-      let uploaderId = this.getAttribute('data-uploader_id');
-      
-      let uploader = getUploaderById(uploaderId);
-      
-      if (uploader) {
+    initCroppie : function(el){
+        let cropieInit = (el.tagName != 'IMG') ?  el.querySelector(this.selector_croppie) : el;
+        let fileInput = el.querySelector("input[type='file']");
+        let objCroppie = {}
+        if(!cropieInit){
+          this.displayErrors("No genero Croppie = "+cropieInit)
+          return false
+        }
+        let resizer = new croppie(cropieInit, {
+          boundary: { width: 300, height: 300 },
+          viewport: { width: 200, height: 200 },
+          showZoomer: true,
+          // enableResize: true,
+          enableOrientation: true,
+          enableZoom: true,
+          mouseWheelZoom: 'ctrl'
+        });
         
-        triggerBindToUploader(uploader);
+        objCroppie = {'croppie':el,'resizer':resizer}
         
-      }
-    })
-  }
-  
-  
-  let saveBtns = document.querySelectorAll('.imageSave');
-  
-  for (let i=0; i < saveBtns.length; i++) {
-    let saveBtn = saveBtns[i];
-    
-    saveBtn.addEventListener('click', function(e) {
-      let uploaderId = this.getAttribute('data-uploader_id');
-      
-      let uploader = getUploaderById(uploaderId);
-      
-      if (uploader) {
-        getCropResult(uploader, function(result) {
-          
-          
-          let name = getRandomImageName(20);
-          
-          uploadImageData(result, name, function(err, res) {
-            if (res) {
-              let url = res.Location;
-              
-              let evt = new CustomEvent('uploadImage', {detail: {url: url}});
-              uploader.el.dispatchEvent(evt);
-            }
+        if(fileInput){
+          objCroppie["fileInput"] = fileInput
+          fileInput.addEventListener('change', function(e) {
+            if (this.files.length == 0) return;
+            let file = this.files[0];
+            let reader = new FileReader();
+            reader.onload = function(e) {
+              resizer.bind({
+                url: e.target.result
+              })
+            };
+            reader.readAsDataURL(file);
           })
-        })
+        }
+  
+        this.croppieObjs.push(objCroppie);
+    },
+    
+    saveCroppieCrud: async function(elCroppie) {
+      let name = elCroppie.getAttribute('name');
+      let data = elCroppie.dataset;
+      
+       if(typeof name === 'undefined' || name === '' || name ==null){
+        console.error("you need add attr [name] ");
+        return
       }
-    })
+      
+      if(typeof data["collection"] === 'undefined' || data["collection"] === ''){
+        console.error("you need add attr [data-collection] ");
+        return
+      }
+      
+      let obj = this.croppieObjs.find((obj) => obj.croppie === elCroppie);
+      
+      let base64 = (elCroppie.tagName == 'IMG') ? await this.getCropResult(obj.resizer) : (obj.fileInput.files.length) ? await this.getCropResult(obj.resizer) : null
+      if(base64){
+        crud.createDocument({
+           collection:data["collection"],
+           data: {[name]:base64},
+         });
+      }else{
+        console.error("it is Empty, not save croppie in crud")
+      }
+      
+    },
+    
+  	__croppieUploadImageAction: function(btn) {
+  	  let croppie = btn.closest(this.selector_element);
+  	  if(!croppie ){
+          console.error("It needs to be inside an element "+this.selector_element+"")
+          return false
+        }
+      let fileInput = croppie.querySelector("input[type='file']");
+      if(!fileInput ){
+          console.error("You need in input file inside "+this.selector_element+"")
+          return false
+        }
+      fileInput.click();
+  	  document.dispatchEvent(new CustomEvent('CroppieUploadImage', {
+  				detail: {}
+  			}))
+  	},
+  	
+    __croppieSaveAction: function(btn) {
+      
+      let croppie = btn.closest(this.selector_element);
+      let executeMultiple = false;
+  	  if(!croppie ){
+  	    //btn It is not within the parent tag
+  	    executeMultiple = true
+  	    let that = this;
+  	    let form = btn.closest('form');
+  	    let croppies = form.querySelectorAll(this.selector_element);
+  	    croppies.forEach(function(croppie) {
+          that.saveCroppieCrud(croppie);
+        });
+  	  }
+  	  
+  	  if(executeMultiple == false)
+  	    this.saveCroppieCrud(croppie)
+  	 
+  	  document.dispatchEvent(new CustomEvent('CroppieSave', {
+  				detail: {}
+  			}))
+    },
+    
+    readFile: function (file = {}, method = 'readAsText') {
+      const reader = new FileReader()
+      return new Promise((resolve, reject) => {
+        reader[method](file)
+        reader.onload = () => {
+          resolve(reader)
+        }
+        reader.onerror = (error) => reject(error)
+      })
+  },
+  
+  getCropResult : function(resizer) {
+    return new Promise((resolve, reject) => {
+      resizer.result('base64').then(function(base64) {
+      
+        resolve(base64);
+        
+      }).onerror = (error) => reject(error);
+   });
   }
   
-}
+}//end class CocreateCroppie
 
-function getRandomImageName(length) {
-  let result           = '';
-  let characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-  
-  let charactersLength = characters.length;
-  
-  for ( let i = 0; i < length; i++ ) {
-    result += characters.charAt(Math.floor(Math.random() * charactersLength));
-  }
-  
-  return result + '.jpg';
-}
+CocreateCroppie.init();
 
 
+action.init({
+	action: "CroppieUploadImage",
+	endEvent: "CroppieUploadImage",
+	callback: (btn, data) => {
+		CocreateCroppie.__croppieUploadImageAction(btn)
+	},
+})
 
-initImageuploaders();
-initUploaderButtons();
+
+action.init({
+	action: "CroppieSave",
+	endEvent: "CroppieSave",
+	callback: (btn, data) => {
+	  console.log("Log save")
+		CocreateCroppie.__croppieSaveAction(btn)
+	},
+})
+
+export default CocreateCroppie;
