@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.0.6...v1.0.7) (2021-06-17)
+
+
+### Bug Fixes
+
+* added header for seo ([815f51a](https://github.com/CoCreate-app/CoCreate-croppie/commit/815f51a96f8904a172ee6f58a3fe01bde0b93470))
+
 ## [1.0.6](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.0.5...v1.0.6) (2021-05-08)
 
 
