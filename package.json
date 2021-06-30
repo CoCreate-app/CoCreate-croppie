@@ -51,6 +51,7 @@
     "clean-webpack-plugin": "^3.0.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.5.0",    
     "style-loader": "^2.0.0",
     "terser-webpack-plugin": "^5.1.1",
     "uglifyjs-webpack-plugin": "^2.2.0",
@@ -63,7 +64,6 @@
     "@cocreate/crud-client": "^1.1.9",
     "@cocreate/docs": "^1.1.14",
     "@cocreate/form": "^1.0.23",
-    "croppie": "^2.6.5",
-    "mini-css-extract-plugin": "^1.5.0"
+    "croppie": "^2.6.5"
   }
 }
