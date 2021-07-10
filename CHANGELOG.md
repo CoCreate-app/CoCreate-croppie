@@ -1,3 +1,10 @@
+## [1.0.13](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.0.12...v1.0.13) (2021-07-10)
+
+
+### Bug Fixes
+
+* gitignore all logs ([a4078af](https://github.com/CoCreate-app/CoCreate-croppie/commit/a4078affa71b8629f62b371cb2675f2f947cdbb7))
+
 ## [1.0.12](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.0.11...v1.0.12) (2021-06-30)
 
 
