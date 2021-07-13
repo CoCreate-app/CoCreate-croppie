@@ -1,3 +1,11 @@
+## [1.0.14](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.0.13...v1.0.14) (2021-07-13)
+
+
+### Bug Fixes
+
+* add yarn lockfile to git ignore ([b5721d0](https://github.com/CoCreate-app/CoCreate-croppie/commit/b5721d0b6abcab07f87d62043a5e31e251cf50b8))
+* remove yarn.lock ([433b32c](https://github.com/CoCreate-app/CoCreate-croppie/commit/433b32c0eda6025e8798e19d5e4d87eddec39a0f))
+
 ## [1.0.13](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.0.12...v1.0.13) (2021-07-10)
 
 
