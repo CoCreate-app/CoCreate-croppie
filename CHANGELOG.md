@@ -1,3 +1,10 @@
+## [1.0.16](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.0.15...v1.0.16) (2021-07-17)
+
+
+### Bug Fixes
+
+* workflows ([60e6a68](https://github.com/CoCreate-app/CoCreate-croppie/commit/60e6a68e2ef4b63147ee71d322cfb05fca6491c7))
+
 ## [1.0.15](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.0.14...v1.0.15) (2021-07-14)
 
 
