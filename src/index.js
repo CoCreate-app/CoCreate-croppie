@@ -71,7 +71,7 @@ const CocreateCroppie = {
       }
       
       if(typeof data["collection"] === 'undefined' || data["collection"] === ''){
-        console.error("you need add attr [data-collection] ");
+        console.error("you need add attr [collection] ");
         return
       }
       
