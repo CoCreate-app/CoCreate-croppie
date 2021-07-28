@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.0.16...v1.1.0) (2021-07-28)
+
+
+### Bug Fixes
+
+* remove data- from fetch, pass and filter ([9052e9e](https://github.com/CoCreate-app/CoCreate-croppie/commit/9052e9ee6fe896897d01790c377cf2c36b568471))
+
+
+### Features
+
+* add new is{attribute} system and remove data- from attributtes ([7564d34](https://github.com/CoCreate-app/CoCreate-croppie/commit/7564d349f516176adf7dd5b5d7c6090de8c6a0b6))
+
 ## [1.0.16](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.0.15...v1.0.16) (2021-07-17)
 
 
