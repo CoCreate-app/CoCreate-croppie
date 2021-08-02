@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.0...v1.1.1) (2021-08-02)
+
+
+### Bug Fixes
+
+* remove data- from attributes ([504eef9](https://github.com/CoCreate-app/CoCreate-croppie/commit/504eef97f5fac0cb73b1042120d275f438b64b36))
+* update data-fullscreen to fullscreen ([46997f7](https://github.com/CoCreate-app/CoCreate-croppie/commit/46997f7c94c6c94281225b9f1849503626510d61))
+
 # [1.1.0](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.0.16...v1.1.0) (2021-07-28)
 
 
