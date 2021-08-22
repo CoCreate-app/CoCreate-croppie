@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.4...v1.1.5) (2021-08-22)
+
+
+### Bug Fixes
+
+* removed data- from main-content, clone, filter-value_type ([5903c01](https://github.com/CoCreate-app/CoCreate-croppie/commit/5903c01831cbe064d146bf01a3868e5e6766f487))
+
 ## [1.1.4](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.3...v1.1.4) (2021-08-22)
 
 
