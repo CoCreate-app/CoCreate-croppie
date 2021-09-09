@@ -1,3 +1,10 @@
+## [1.1.11](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.10...v1.1.11) (2021-09-09)
+
+
+### Bug Fixes
+
+* CoCreate.config directory, path, name and  public ([4743570](https://github.com/CoCreate-app/CoCreate-croppie/commit/47435704434db4b48c06630528034b1903ad1a76))
+
 ## [1.1.10](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.9...v1.1.10) (2021-09-08)
 
 
