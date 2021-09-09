@@ -60,10 +60,10 @@
     "webpack-log": "^3.0.1"
   },
   "dependencies": {
-    "@cocreate/action": "^1.2.13",
-    "@cocreate/crud-client": "^1.2.17",
-    "@cocreate/docs": "^1.2.15",
-    "@cocreate/form": "^1.2.11",
+    "@cocreate/action": "^1.2.14",
+    "@cocreate/crud-client": "^1.2.18",
+    "@cocreate/docs": "^1.2.17",
+    "@cocreate/form": "^1.2.12",
     "croppie": "^2.6.5"
   }
 }
