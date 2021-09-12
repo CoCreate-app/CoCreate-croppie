@@ -1,3 +1,10 @@
+## [1.1.15](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.14...v1.1.15) (2021-09-12)
+
+
+### Bug Fixes
+
+* update sidenav to use resize and toggle ([0a41ba2](https://github.com/CoCreate-app/CoCreate-croppie/commit/0a41ba21b5b656cb3e6e744fd322ffc3f83f703b))
+
 ## [1.1.14](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.13...v1.1.14) (2021-09-09)
 
 
