@@ -1,3 +1,10 @@
+## [1.1.17](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.16...v1.1.17) (2021-09-14)
+
+
+### Bug Fixes
+
+* add cocreate.app to domains ([8c6ee2e](https://github.com/CoCreate-app/CoCreate-croppie/commit/8c6ee2ed05b2d35458c46bba4a0a51b3b759a152))
+
 ## [1.1.16](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.15...v1.1.16) (2021-09-13)
 
 
