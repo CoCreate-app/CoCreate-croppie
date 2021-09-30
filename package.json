@@ -61,9 +61,9 @@
   },
   "dependencies": {
     "@cocreate/action": "^1.2.19",
-    "@cocreate/crud-client": "^1.2.25",
+    "@cocreate/crud-client": "^1.2.26",
     "@cocreate/docs": "^1.2.22",
-    "@cocreate/form": "^1.2.18",
+    "@cocreate/form": "^1.2.19",
     "croppie": "^2.6.5"
   }
 }
