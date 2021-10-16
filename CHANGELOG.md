@@ -1,3 +1,10 @@
+## [1.1.32](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.31...v1.1.32) (2021-10-16)
+
+
+### Bug Fixes
+
+* update socket package to fix bug in docs ([797f3c5](https://github.com/CoCreate-app/CoCreate-croppie/commit/797f3c54bb0e3089fa8e0158c9a8a741464ce8f2))
+
 ## [1.1.31](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.30...v1.1.31) (2021-10-15)
 
 
