@@ -1,3 +1,10 @@
+## [1.1.36](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.35...v1.1.36) (2021-11-02)
+
+
+### Bug Fixes
+
+* removed @cocreate/form ([bf62ad1](https://github.com/CoCreate-app/CoCreate-croppie/commit/bf62ad1902fed87a9587d293691ca81f3a8af7c1))
+
 ## [1.1.35](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.34...v1.1.35) (2021-11-01)
 
 
