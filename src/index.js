@@ -152,25 +152,23 @@ const CocreateCroppie = {
   
 }//end class CocreateCroppie
 
-CocreateCroppie.init();
-
-
 action.init({
 	action: "CroppieUploadImage",
 	endEvent: "CroppieUploadImage",
 	callback: (btn, data) => {
-		CocreateCroppie.__croppieUploadImageAction(btn)
-	},
-})
+		CocreateCroppie.__croppieUploadImageAction(btn);
+	}
+});
 
 
 action.init({
 	action: "CroppieSave",
 	endEvent: "CroppieSave",
 	callback: (btn, data) => {
-	  console.log("Log save")
-		CocreateCroppie.__croppieSaveAction(btn)
+		CocreateCroppie.__croppieSaveAction(btn);
 	},
-})
+});
+
+CocreateCroppie.init();
 
 export default CocreateCroppie;
