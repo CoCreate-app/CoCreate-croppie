@@ -1,3 +1,10 @@
+## [1.1.40](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.39...v1.1.40) (2021-11-07)
+
+
+### Bug Fixes
+
+* add init() directly above export default to fix bug in firefox ([31eb2ec](https://github.com/CoCreate-app/CoCreate-croppie/commit/31eb2ec7aaf34ca7978aa38d8781d11f0bd87432))
+
 ## [1.1.39](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.38...v1.1.39) (2021-11-06)
 
 
