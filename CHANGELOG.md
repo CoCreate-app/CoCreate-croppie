@@ -1,3 +1,11 @@
+## [1.1.49](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.48...v1.1.49) (2021-11-26)
+
+
+### Bug Fixes
+
+* docs sidenav width ([855f569](https://github.com/CoCreate-app/CoCreate-croppie/commit/855f569e9f17b45c811bb99a8a84defd2c35a185))
+* updated action dependency to actions ([9ff08bf](https://github.com/CoCreate-app/CoCreate-croppie/commit/9ff08bf4c1a1ce1e21f412b791e784f3b776a46e))
+
 ## [1.1.48](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.47...v1.1.48) (2021-11-26)
 
 
