@@ -2,7 +2,7 @@ import observer from '@cocreate/observer';
 import croppie from 'croppie';
 import crud from '@cocreate/crud-client';
 import form from '@cocreate/form';
-import action from '@cocreate/action';
+import action from '@cocreate/actions';
 
 
 // let awsOption = {

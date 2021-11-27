@@ -1,6 +1,6 @@
 import croppie from 'croppie';
 import crud from '@cocreate/crud-client';
-import action from '@cocreate/action';
+import action from '@cocreate/actions';
 
 
 const CocreateCroppie = {
