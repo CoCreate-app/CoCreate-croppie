@@ -1,3 +1,11 @@
+## [1.1.52](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.51...v1.1.52) (2021-11-27)
+
+
+### Bug Fixes
+
+* actions import typo ([4e029da](https://github.com/CoCreate-app/CoCreate-croppie/commit/4e029da76a5cff7590849173b5aaea9161dbe481))
+* update dependencies ([6ba7d91](https://github.com/CoCreate-app/CoCreate-croppie/commit/6ba7d9152d4ef4ad589a2897ded52e8670dbc52d))
+
 ## [1.1.51](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.50...v1.1.51) (2021-11-27)
 
 
