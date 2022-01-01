@@ -1,3 +1,10 @@
+## [1.1.55](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.54...v1.1.55) (2022-01-01)
+
+
+### Bug Fixes
+
+* get-value attribute value now supports a selector added # to all values currently in get-value attributes ([e7a2e23](https://github.com/CoCreate-app/CoCreate-croppie/commit/e7a2e2337702c6b94cb4e2dc87d964cb7ad41795))
+
 ## [1.1.54](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.53...v1.1.54) (2021-12-15)
 
 
