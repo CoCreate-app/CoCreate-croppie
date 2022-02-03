@@ -1,3 +1,10 @@
+## [1.1.57](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.56...v1.1.57) (2022-02-03)
+
+
+### Bug Fixes
+
+* replaced show and hide class hidden with attribute hidden ([5a75026](https://github.com/CoCreate-app/CoCreate-croppie/commit/5a75026a457922f01cbabb1279d58ed08d3aec79))
+
 ## [1.1.56](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.55...v1.1.56) (2022-02-01)
 
 
