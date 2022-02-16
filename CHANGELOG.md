@@ -1,3 +1,10 @@
+## [1.1.60](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.59...v1.1.60) (2022-02-16)
+
+
+### Bug Fixes
+
+* update action param to name ([70bda8f](https://github.com/CoCreate-app/CoCreate-croppie/commit/70bda8f22089537bcae9698db0a1d95dfe4d6f19))
+
 ## [1.1.59](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.58...v1.1.59) (2022-02-10)
 
 
