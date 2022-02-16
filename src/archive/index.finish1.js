@@ -150,7 +150,7 @@ CocreateCroppie.init();
 
 
 action.init({
-	action: "CroppieUploadImage",
+	name: "CroppieUploadImage",
 	endEvent: "CroppieUploadImage",
 	callback: (btn, data) => {
 		CocreateCroppie.__croppieUploadImageAction(btn)
@@ -159,7 +159,7 @@ action.init({
 
 
 action.init({
-	action: "CroppieSave",
+	name: "CroppieSave",
 	endEvent: "CroppieSave",
 	callback: (btn, data) => {
 	  console.log("Log save")

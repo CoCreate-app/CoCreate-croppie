@@ -250,7 +250,7 @@ initUploaderButtons();
 
 
 action.init({
-	action: "saveCroppie",
+	name: "saveCroppie",
 	endEvent: "saveCroppieComplete",
 	callback: (btn, data) => {
 		CoCreateCroppie.savebtnt(btn)
