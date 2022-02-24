@@ -1,3 +1,10 @@
+## [1.1.62](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.61...v1.1.62) (2022-02-24)
+
+
+### Bug Fixes
+
+* CoCreate.config replace CoCreate.app with * ([1393179](https://github.com/CoCreate-app/CoCreate-croppie/commit/13931796e54ca6df2f3819309704b3ee66015b54))
+
 ## [1.1.61](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.60...v1.1.61) (2022-02-16)
 
 
