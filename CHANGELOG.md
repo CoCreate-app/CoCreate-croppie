@@ -1,3 +1,10 @@
+## [1.1.63](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.62...v1.1.63) (2022-05-06)
+
+
+### Bug Fixes
+
+* update config organization_Id to organization_id ([62c4c85](https://github.com/CoCreate-app/CoCreate-croppie/commit/62c4c851fe96d9e2ec8beb4eb96b81e7110822c2))
+
 ## [1.1.62](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.61...v1.1.62) (2022-02-24)
 
 
