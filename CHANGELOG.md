@@ -1,3 +1,10 @@
+## [1.1.64](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.63...v1.1.64) (2022-05-19)
+
+
+### Bug Fixes
+
+* update document_id on link index.css ([3281c69](https://github.com/CoCreate-app/CoCreate-croppie/commit/3281c692c1af1a4ff937fa61b8c4ea752be6bd9b))
+
 ## [1.1.63](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.62...v1.1.63) (2022-05-06)
 
 
