@@ -1,3 +1,10 @@
+## [1.1.76](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.75...v1.1.76) (2022-10-02)
+
+
+### Bug Fixes
+
+* bump @cocreate/hosting and @cocreate/socket-client ([39d28be](https://github.com/CoCreate-app/CoCreate-croppie/commit/39d28be628a8f20f338d099de509dce0a158a396))
+
 ## [1.1.75](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.74...v1.1.75) (2022-10-01)
 
 
