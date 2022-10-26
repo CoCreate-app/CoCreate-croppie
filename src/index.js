@@ -1,7 +1,12 @@
 import croppie from 'croppie';
-import crud from '@cocreate/crud-client';
+import CRUD from '@cocreate/crud-client';
 import action from '@cocreate/actions';
 
+let crud
+if(CRUD && CRUD.default)
+	crud = CRUD.default
+else
+	crud = CRUD
 
 const CocreateCroppie = {
   
