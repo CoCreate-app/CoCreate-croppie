@@ -86,7 +86,7 @@ const CocreateCroppie = {
       if(base64){
         crud.createDocument({
            collection:data["collection"],
-           data: {[name]:base64},
+           document: {[name]:base64},
          });
       }else{
         console.error("it is Empty, not save croppie in crud")

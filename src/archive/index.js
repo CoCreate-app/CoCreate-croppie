@@ -208,7 +208,7 @@ function initUploaderButtons() {
   			};
            crud.createDocument({
              collection:'files2',
-             data: file_data,
+             document: file_data,
            });
          /* 
           let name = getRandomImageName(20);
