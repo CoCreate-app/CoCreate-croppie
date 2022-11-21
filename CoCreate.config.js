@@ -10,7 +10,7 @@ module.exports = {
             "collection": "files",
             "document_id": "6028194771064611a678a197",
             "key": "src",
-            "data":{
+            "document": {
                 "name": "index.html",
                 "path": "/docs/croppie/index.html",
                 "domains": [
