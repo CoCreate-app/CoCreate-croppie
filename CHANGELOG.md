@@ -1,3 +1,11 @@
+## [1.1.78](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.77...v1.1.78) (2022-11-21)
+
+
+### Bug Fixes
+
+* renamed data.data to data.document ([a267931](https://github.com/CoCreate-app/CoCreate-croppie/commit/a26793128633e1e2cdad0ad965a20ebd4ec65e8b))
+* update crud functions to receive an array of objects as the response ([cf945b8](https://github.com/CoCreate-app/CoCreate-croppie/commit/cf945b8c6798391ba7bbb1f9a89dd964e733177d))
+
 ## [1.1.77](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.76...v1.1.77) (2022-10-02)
 
 

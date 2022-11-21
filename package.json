@@ -1,6 +1,6 @@
 {
   "name": "@cocreate/croppie",
-  "version": "1.1.77",
+  "version": "1.1.78",
   "description": "A simple croppie component in vanilla javascript. Easily configured using HTML5 attributes and/or JavaScript API.",
   "keywords": [
     "croppie",
