@@ -1,3 +1,10 @@
+## [1.1.81](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.80...v1.1.81) (2022-11-21)
+
+
+### Bug Fixes
+
+* replaced document_id with document._id ([329941d](https://github.com/CoCreate-app/CoCreate-croppie/commit/329941ded4e8dd96941602f142e30c7e911f707b))
+
 ## [1.1.80](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.79...v1.1.80) (2022-11-21)
 
 
