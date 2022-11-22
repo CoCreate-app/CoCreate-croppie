@@ -1,3 +1,11 @@
+## [1.1.83](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.82...v1.1.83) (2022-11-22)
+
+
+### Bug Fixes
+
+* apply src: {{source}} to CoCreate.config ([8ea354f](https://github.com/CoCreate-app/CoCreate-croppie/commit/8ea354f0a52b63264a872b3d1b8b3915fcd7a66a))
+* workflow docs ([d12a13a](https://github.com/CoCreate-app/CoCreate-croppie/commit/d12a13a2ad0475b883f601988426798e984e9f53))
+
 ## [1.1.82](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.81...v1.1.82) (2022-11-21)
 
 
