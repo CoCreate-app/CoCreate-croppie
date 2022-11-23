@@ -3,7 +3,7 @@ import CRUD from '@cocreate/crud-client';
 import action from '@cocreate/actions';
 
 let crud
-if(CRUD && CRUD.default)
+if (CRUD && CRUD.default)
 	crud = CRUD.default
 else
 	crud = CRUD
@@ -17,7 +17,7 @@ const CocreateCroppie = {
    croppieObjs : [],
     
     displayErrors : function(msg) {
-      if(this.debug)
+      if (this.debug)
         console.error(msg)
     },
     
@@ -31,7 +31,7 @@ const CocreateCroppie = {
     initCroppie : function(el){
         let cropieInit = el.querySelector(this.selector_croppie);
         let fileInput = el.querySelector("input[type='file']");
-        if(!cropieInit || !fileInput ){
+        if (!cropieInit || !fileInput ){
           this.displayErrors("No genero Croppie = "+cropieInit+" FileInput = "+fileInput)
           return false
         }
@@ -65,19 +65,19 @@ const CocreateCroppie = {
       let name = elCroppie.getAttribute('name');
       let data = elCroppie.dataset;
       
-       if(typeof name === 'undefined' || name === '' || name ==null){
+       if (typeof name === 'undefined' || name === '' || name ==null){
         console.error("you need add attr [name] ");
         return
       }
       
-      if(typeof data["collection"] === 'undefined' || data["collection"] === ''){
+      if (typeof data["collection"] === 'undefined' || data["collection"] === ''){
         console.error("you need add attr [data-collection] ");
         return
       }
       
       let obj = this.croppieObjs.find((obj) => obj.croppie === elCroppie);
       let base64 = (obj.fileInput.files.length) ? await this.getCropResult(obj.resizer) : null
-      if(base64){
+      if (base64){
         crud.createDocument({
            collection:data["collection"],
            document: {[name]:base64},
@@ -90,12 +90,12 @@ const CocreateCroppie = {
     
   	__croppieUploadImageAction: function(btn) {
   	  let croppie = btn.closest(this.selector_element);
-  	  if(!croppie ){
+  	  if (!croppie ){
           console.error("It needs to be inside an element "+this.selector_element+"")
           return false
         }
       let fileInput = croppie.querySelector("input[type='file']");
-      if(!fileInput ){
+      if (!fileInput ){
           console.error("You need in input file inside "+this.selector_element+"")
           return false
         }
@@ -109,7 +109,7 @@ const CocreateCroppie = {
       
       let croppie = btn.closest(this.selector_element);
       let executeMultiple = false;
-  	  if(!croppie ){
+  	  if (!croppie ){
   	    //btn It is not within the parent tag
   	    executeMultiple = true
   	    let that = this;
@@ -120,7 +120,7 @@ const CocreateCroppie = {
         });
   	  }
   	  
-  	  if(executeMultiple == false)
+  	  if (executeMultiple == false)
   	    this.saveCroppieCrud(croppie)
   	 
   	  document.dispatchEvent(new CustomEvent('CroppieSave', {
