@@ -1,3 +1,11 @@
+## [1.1.86](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.85...v1.1.86) (2022-11-25)
+
+
+### Bug Fixes
+
+* bump dependencies ([733edce](https://github.com/CoCreate-app/CoCreate-croppie/commit/733edcef43c9e2a3c01d8a2f6dd01bb71bce792c))
+* CoCreate.crud.default removed bug causing default object ([fda3621](https://github.com/CoCreate-app/CoCreate-croppie/commit/fda3621defd31f51019b45e4b677a6420ad3e071))
+
 ## [1.1.85](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.84...v1.1.85) (2022-11-24)
 
 
