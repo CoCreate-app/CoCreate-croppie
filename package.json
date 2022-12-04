@@ -20,9 +20,7 @@
     "html5-framework",
     "javascript-framework"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
+  "publishConfig": { "access": "public" },
   "scripts": {
     "start": "npx webpack --config webpack.config.js",
     "build": "NODE_ENV=production npx webpack --config webpack.config.js",
@@ -35,9 +33,7 @@
   },
   "author": "CoCreate LLC",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/CoCreate-app/CoCreate-croppie/issues"
-  },
+  "bugs": { "url": "https://github.com/CoCreate-app/CoCreate-croppie/issues" },
   "homepage": "https://cocreate.app/docs/croppie",
   "funding": {
     "type": "GitHub Sponsors ❤",
@@ -60,9 +56,9 @@
     "webpack-log": "^3.0.1"
   },
   "dependencies": {
-    "@cocreate/actions": "^1.5.28",
-    "@cocreate/crud-client": "^1.15.10",
-    "@cocreate/docs": "^1.4.11",
+    "@cocreate/actions": "^1.5.29",
+    "@cocreate/crud-client": "^1.15.12",
+    "@cocreate/docs": "^1.4.13",
     "croppie": "^2.6.5"
   }
 }
