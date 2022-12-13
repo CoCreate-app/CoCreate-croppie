@@ -1,3 +1,10 @@
+## [1.1.99](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.98...v1.1.99) (2022-12-13)
+
+
+### Bug Fixes
+
+* removed un used devDependencies ([b225943](https://github.com/CoCreate-app/CoCreate-croppie/commit/b22594326e38f5c96ffee1548a9d7b99155c18e6))
+
 ## [1.1.98](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.97...v1.1.98) (2022-12-13)
 
 
