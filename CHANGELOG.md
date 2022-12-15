@@ -1,3 +1,10 @@
+## [1.1.100](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.99...v1.1.100) (2022-12-15)
+
+
+### Bug Fixes
+
+* add missing dev dependency style-loader ([64927c5](https://github.com/CoCreate-app/CoCreate-croppie/commit/64927c5e306134fec7d54f844cc710dc2f896eac))
+
 ## [1.1.99](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.98...v1.1.99) (2022-12-13)
 
 
