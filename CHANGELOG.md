@@ -1,3 +1,10 @@
+## [1.1.101](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.100...v1.1.101) (2022-12-20)
+
+
+### Bug Fixes
+
+* bump dependencies ([04d69d4](https://github.com/CoCreate-app/CoCreate-croppie/commit/04d69d48a4b6f0c7afd1f393be5823cdddaa51e3))
+
 ## [1.1.100](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.99...v1.1.100) (2022-12-15)
 
 
