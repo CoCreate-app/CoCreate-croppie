@@ -1,3 +1,10 @@
+## [1.1.109](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.108...v1.1.109) (2022-12-30)
+
+
+### Bug Fixes
+
+* update config sources to use template  braces with entry on src ([a1b9438](https://github.com/CoCreate-app/CoCreate-croppie/commit/a1b943868763d874040f14dff3458ffcbb900b70))
+
 ## [1.1.108](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.107...v1.1.108) (2022-12-29)
 
 
