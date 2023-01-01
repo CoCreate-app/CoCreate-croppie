@@ -1,3 +1,10 @@
+## [1.1.111](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.110...v1.1.111) (2023-01-01)
+
+
+### Bug Fixes
+
+* docs sanbox overflow ([08ae262](https://github.com/CoCreate-app/CoCreate-croppie/commit/08ae262d970fa5e2b04e7415d6077f7f44ea8545))
+
 ## [1.1.110](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.109...v1.1.110) (2022-12-31)
 
 
