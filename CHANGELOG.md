@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.122...v1.2.0) (2023-03-16)
+
+
+### Features
+
+* replaced get-value and set-value with a super charged version of CoCreate-events ([7910650](https://github.com/CoCreate-app/CoCreate-croppie/commit/791065039f195713bf06bae50a37a27f76b94dcf))
+
 ## [1.1.122](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.1.121...v1.1.122) (2023-02-01)
 
 
