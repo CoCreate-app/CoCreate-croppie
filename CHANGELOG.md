@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.2.3...v1.2.4) (2023-04-11)
+
+
+### Bug Fixes
+
+* renamed domains to hosts ([30cb8b4](https://github.com/CoCreate-app/CoCreate-croppie/commit/30cb8b4dd98e8629c18f8f3b155b7b84be3bd820))
+
 ## [1.2.3](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.2.2...v1.2.3) (2023-03-30)
 
 
