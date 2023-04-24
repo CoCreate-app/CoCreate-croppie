@@ -1,3 +1,10 @@
+## [1.3.4](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.3...v1.3.4) (2023-04-24)
+
+
+### Bug Fixes
+
+* updated worrkflows to v3 and node version 16 ([69962b2](https://github.com/CoCreate-app/CoCreate-croppie/commit/69962b26f169340b3a110289c2f0525bedce024c))
+
 ## [1.3.3](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.2...v1.3.3) (2023-04-24)
 
 
