@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.2.6...v1.3.0) (2023-04-24)
+
+
+### Features
+
+* added pwa manifest ([1f9c77c](https://github.com/CoCreate-app/CoCreate-croppie/commit/1f9c77caa5da80e44c1fe26d5be5ced77ed15725))
+
 ## [1.2.6](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.2.5...v1.2.6) (2023-04-11)
 
 
