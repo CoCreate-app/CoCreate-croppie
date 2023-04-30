@@ -1,3 +1,12 @@
+## [1.3.5](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.4...v1.3.5) (2023-04-30)
+
+
+### Bug Fixes
+
+* fullscreen target updated to fullscreen fullscreen-target ([5c12ab5](https://github.com/CoCreate-app/CoCreate-croppie/commit/5c12ab5c3834cbca326feb166e15384644b0312a))
+* package-lock.json and pnpm-lock.yaml added to .gitignore ([802dc52](https://github.com/CoCreate-app/CoCreate-croppie/commit/802dc529406e0c85cde1ad9ad53303b3ba48be77))
+* removed toogle fullscreen icons. now using css content ([9756fa5](https://github.com/CoCreate-app/CoCreate-croppie/commit/9756fa545670ce5694f6fec5259c4da95db6de18))
+
 ## [1.3.4](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.3...v1.3.4) (2023-04-24)
 
 
