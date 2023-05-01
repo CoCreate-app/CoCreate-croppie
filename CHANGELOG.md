@@ -1,3 +1,10 @@
+## [1.3.6](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.5...v1.3.6) (2023-05-01)
+
+
+### Bug Fixes
+
+* replace fontawesome with svg ([b22e134](https://github.com/CoCreate-app/CoCreate-croppie/commit/b22e134321ea12fa2dc09d34d265bf2d6f4accc9))
+
 ## [1.3.5](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.4...v1.3.5) (2023-04-30)
 
 
