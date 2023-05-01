@@ -1,3 +1,10 @@
+## [1.3.7](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.6...v1.3.7) (2023-05-01)
+
+
+### Bug Fixes
+
+* update manifest.json to manifest.webmanifest ([9083cc2](https://github.com/CoCreate-app/CoCreate-croppie/commit/9083cc2582eafce402b5693605b0100ec73c7f6f))
+
 ## [1.3.6](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.5...v1.3.6) (2023-05-01)
 
 
