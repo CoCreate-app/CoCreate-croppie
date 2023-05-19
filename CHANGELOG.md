@@ -1,3 +1,11 @@
+## [1.3.9](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.8...v1.3.9) (2023-05-19)
+
+
+### Bug Fixes
+
+* apikey renamed to key ([b0448e6](https://github.com/CoCreate-app/CoCreate-croppie/commit/b0448e630eee3ce19ae49ec219c121c50a5922a2))
+* update packages to latest version. This commit updates various packages in the dependencies section of the package.json file to their latest published versions, thereby fixing multiple bugs and improving overall performance. ([e2076fe](https://github.com/CoCreate-app/CoCreate-croppie/commit/e2076fe73657047b92964950a7088452e27404f3))
+
 ## [1.3.8](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.7...v1.3.8) (2023-05-06)
 
 
