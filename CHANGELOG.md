@@ -1,3 +1,10 @@
+## [1.3.11](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.10...v1.3.11) (2023-06-02)
+
+
+### Bug Fixes
+
+* format demo html ([c78eb0e](https://github.com/CoCreate-app/CoCreate-croppie/commit/c78eb0e33f9ed70e8b09f6fc250112fab1171e4f))
+
 ## [1.3.10](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.9...v1.3.10) (2023-05-21)
 
 
