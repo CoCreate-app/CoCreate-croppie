@@ -1,3 +1,10 @@
+## [1.3.14](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.13...v1.3.14) (2023-06-04)
+
+
+### Bug Fixes
+
+* Refactor CoCreate.config.js to remove hard-coded credentials ([16eefd8](https://github.com/CoCreate-app/CoCreate-croppie/commit/16eefd89263d5a7526d7b098b8109c95365fcc22))
+
 ## [1.3.13](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.12...v1.3.13) (2023-06-04)
 
 
