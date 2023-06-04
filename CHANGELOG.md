@@ -1,3 +1,10 @@
+## [1.3.12](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.11...v1.3.12) (2023-06-04)
+
+
+### Bug Fixes
+
+* **semantic-release:** worklow error solved by running node version 14 ([dbcd461](https://github.com/CoCreate-app/CoCreate-croppie/commit/dbcd461888e31ee12f5a414bc050e7c991b8557d))
+
 ## [1.3.11](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.10...v1.3.11) (2023-06-02)
 
 
