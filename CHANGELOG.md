@@ -1,3 +1,11 @@
+## [1.3.13](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.12...v1.3.13) (2023-06-04)
+
+
+### Bug Fixes
+
+* replaced secert GITHUB_TOKEN with GITHUB ([3d82a4a](https://github.com/CoCreate-app/CoCreate-croppie/commit/3d82a4a336849c799a7964c27a9f4ec3698d9d0d))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([ac5b628](https://github.com/CoCreate-app/CoCreate-croppie/commit/ac5b628bfd96fc9c527624db008a90d0a1e63392))
+
 ## [1.3.12](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.11...v1.3.12) (2023-06-04)
 
 
