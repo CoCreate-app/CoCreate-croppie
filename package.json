@@ -62,7 +62,7 @@
   "dependencies": {
     "@cocreate/actions": "^1.8.18",
     "@cocreate/crud-client": "^1.21.10",
-    "@cocreate/docs": "^1.8.2",
+    "@cocreate/docs": "^1.8.13",
     "croppie": "^2.6.5"
   }
 }
