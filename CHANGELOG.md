@@ -1,3 +1,10 @@
+## [1.3.17](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.16...v1.3.17) (2023-06-11)
+
+
+### Bug Fixes
+
+* renamed hosts to host. the value can be a string or an array of strings ([51800be](https://github.com/CoCreate-app/CoCreate-croppie/commit/51800be375ec14fdfaa71065a484e44915ec09f4))
+
 ## [1.3.16](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.15...v1.3.16) (2023-06-10)
 
 
