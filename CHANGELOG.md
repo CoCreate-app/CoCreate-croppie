@@ -1,3 +1,10 @@
+## [1.3.25](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.24...v1.3.25) (2023-06-11)
+
+
+### Bug Fixes
+
+* testing workflow ([49df3c1](https://github.com/CoCreate-app/CoCreate-croppie/commit/49df3c17c34636d9e3b539a8dd04febd5aef8749))
+
 ## [1.3.24](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.23...v1.3.24) (2023-06-11)
 
 
