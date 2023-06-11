@@ -1,3 +1,10 @@
+## [1.3.20](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.19...v1.3.20) (2023-06-11)
+
+
+### Bug Fixes
+
+* postintall error ([2cf0ac9](https://github.com/CoCreate-app/CoCreate-croppie/commit/2cf0ac986ed6de84d4550296300e27daa88a3fef))
+
 ## [1.3.19](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.18...v1.3.19) (2023-06-11)
 
 
