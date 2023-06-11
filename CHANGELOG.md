@@ -1,3 +1,10 @@
+## [1.3.27](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.26...v1.3.27) (2023-06-11)
+
+
+### Bug Fixes
+
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([b50cc81](https://github.com/CoCreate-app/CoCreate-croppie/commit/b50cc817d2b710fde5da211b39a7b9fa25639a05))
+
 ## [1.3.26](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.25...v1.3.26) (2023-06-11)
 
 
