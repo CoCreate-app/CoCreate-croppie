@@ -4,8 +4,8 @@ module.exports = {
     "host": "",
     "sources": [
         {
-            "collection": "files",
-            "document": {
+            "array": "files",
+            "object": {
                 "_id": "6028194771064611a678a197",
                 "name": "index.html",
                 "path": "/docs/croppie/index.html",

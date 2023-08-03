@@ -206,9 +206,10 @@ function initUploaderButtons() {
                         "size": 'size',
                         "content": resultbase64,
                     };
-                    crud.createDocument({
-                        collection: 'files2',
-                        document: file_data,
+                    crud.send({
+                        method: 'create.object',
+                        array: 'files2',
+                        object: file_data,
                     });
                     /* 
                      let name = getRandomImageName(20);

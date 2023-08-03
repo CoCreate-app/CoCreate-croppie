@@ -69,8 +69,8 @@ const CocreateCroppie = {
             return
         }
 
-        if (typeof data["collection"] === 'undefined' || data["collection"] === '') {
-            console.error("you need add attr [collection] ");
+        if (typeof data["array"] === 'undefined' || data["array"] === '') {
+            console.error("you need add attr [array] ");
             return
         }
 
@@ -78,9 +78,10 @@ const CocreateCroppie = {
 
         let base64 = (elCroppie.tagName == 'IMG') ? await this.getCropResult(obj.resizer) : (obj.fileInput.files.length) ? await this.getCropResult(obj.resizer) : null
         if (base64) {
-            crud.createDocument({
-                collection: data["collection"],
-                document: { [name]: base64 },
+            crud.send({
+                method: 'create.object',
+                array: data["array"],
+                object: { [name]: base64 },
             });
         } else {
             console.error("it is Empty, not save croppie in crud")
