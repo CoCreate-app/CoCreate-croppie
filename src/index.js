@@ -61,11 +61,11 @@ const CocreateCroppie = {
     },
 
     saveCroppieCrud: async function (elCroppie) {
-        let name = elCroppie.getAttribute('name');
+        let key = elCroppie.getAttribute('key');
         let data = elCroppie.dataset;
 
-        if (typeof name === 'undefined' || name === '' || name == null) {
-            console.error("you need add attr [name] ");
+        if (typeof key === 'undefined' || key === '' || key == null) {
+            console.error("you need add attr [key] ");
             return
         }
 
@@ -81,7 +81,7 @@ const CocreateCroppie = {
             crud.send({
                 method: 'create.object',
                 array: data["array"],
-                object: { [name]: base64 },
+                object: { [key]: base64 },
             });
         } else {
             console.error("it is Empty, not save croppie in crud")
