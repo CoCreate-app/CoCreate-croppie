@@ -1,5 +1,4 @@
 import croppie from 'croppie';
-import crud from '@cocreate/crud-client';
 import action from '@cocreate/actions';
 
 const CocreateCroppie = {
@@ -26,10 +25,12 @@ const CocreateCroppie = {
         let cropieInit = (el.tagName != 'IMG') ? el.querySelector(this.selector_croppie) : el;
         let fileInput = el.querySelector("input[type='file']");
         let objCroppie = {}
+
         if (!cropieInit) {
             this.displayErrors("No genero Croppie = " + cropieInit)
             return false
         }
+
         let resizer = new croppie(cropieInit, {
             boundary: { width: 300, height: 300 },
             viewport: { width: 200, height: 200 },
@@ -41,6 +42,12 @@ const CocreateCroppie = {
         });
 
         objCroppie = { 'croppie': el, 'resizer': resizer }
+
+        el.getValue = async () => {
+            let obj = this.croppieObjs.find((obj) => obj.croppie === elCroppie);
+            let base64 = (elCroppie.tagName == 'IMG') ? await this.getCropResult(obj.resizer) : (obj.fileInput.files.length) ? await this.getCropResult(obj.resizer) : null
+            return base64
+        }
 
         if (fileInput) {
             objCroppie["fileInput"] = fileInput
@@ -60,33 +67,8 @@ const CocreateCroppie = {
         this.croppieObjs.push(objCroppie);
     },
 
-    saveCroppieCrud: async function (elCroppie) {
-        let key = elCroppie.getAttribute('key');
-        let data = elCroppie.dataset;
-
-        if (typeof key === 'undefined' || key === '' || key == null) {
-            console.error("you need add attr [key] ");
-            return
-        }
-
-        if (typeof data["array"] === 'undefined' || data["array"] === '') {
-            console.error("you need add attr [array] ");
-            return
-        }
-
-        let obj = this.croppieObjs.find((obj) => obj.croppie === elCroppie);
-
-        let base64 = (elCroppie.tagName == 'IMG') ? await this.getCropResult(obj.resizer) : (obj.fileInput.files.length) ? await this.getCropResult(obj.resizer) : null
-        if (base64) {
-            crud.send({
-                method: 'create.object',
-                array: data["array"],
-                object: { [key]: base64 },
-            });
-        } else {
-            console.error("it is Empty, not save croppie in crud")
-        }
-
+    save: async function (elCroppie) {
+        elCroppie.save()
     },
 
     __croppieUploadImageAction: function (btn) {
@@ -117,12 +99,12 @@ const CocreateCroppie = {
             let form = btn.closest('form');
             let croppies = form.querySelectorAll(this.selector_element);
             croppies.forEach(function (croppie) {
-                that.saveCroppieCrud(croppie);
+                that.save(croppie);
             });
         }
 
         if (executeMultiple == false)
-            this.saveCroppieCrud(croppie)
+            this.save(croppie)
 
         document.dispatchEvent(new CustomEvent('CroppieSave', {
             detail: {}
