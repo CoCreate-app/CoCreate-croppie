@@ -1,3 +1,19 @@
+# [1.4.0](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.28...v1.4.0) (2023-08-16)
+
+
+### Bug Fixes
+
+* crud attributes renamed ([f3cfef1](https://github.com/CoCreate-app/CoCreate-croppie/commit/f3cfef1c125716b5c5b9ca162d8d83a1e49681b6))
+* replace -target -selector ([3efeabb](https://github.com/CoCreate-app/CoCreate-croppie/commit/3efeabb28743dd275fe824a67e452d6ae9321e62))
+* updated actions callback data object ([48f7865](https://github.com/CoCreate-app/CoCreate-croppie/commit/48f7865711b677c6a35048d93080afc349dea649))
+* webpack.config and package.json make use of mode=production instead of process.env ([8dc6d04](https://github.com/CoCreate-app/CoCreate-croppie/commit/8dc6d043f5650c64317c9fe57f2f08f4aea02fb4))
+
+
+### Features
+
+* name attribute and variable renamed to key ([bafede3](https://github.com/CoCreate-app/CoCreate-croppie/commit/bafede3ad579ea437ebdc57aedf1431113fb5cca))
+* removed @cocreate/crud-client and added element.getValue function ([ae10bd1](https://github.com/CoCreate-app/CoCreate-croppie/commit/ae10bd1a06ade59d6cc449abc011ef34bcfcd7b4))
+
 ## [1.3.28](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.3.27...v1.3.28) (2023-06-14)
 
 
