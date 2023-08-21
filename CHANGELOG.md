@@ -1,3 +1,12 @@
+## [1.5.1](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.5.0...v1.5.1) (2023-08-21)
+
+
+### Bug Fixes
+
+* /dist/CoCreate.js updated to https://CoCreate.app/dist/CoCreate.js ([4bd169d](https://github.com/CoCreate-app/CoCreate-croppie/commit/4bd169dbb24099fbb232c77b1d26373d9a67a42a))
+* replace cdn with /dist ([7e73f8f](https://github.com/CoCreate-app/CoCreate-croppie/commit/7e73f8f40d2b950b315e5d2c595e83d306b8ce47))
+* update file uploader ([9712c43](https://github.com/CoCreate-app/CoCreate-croppie/commit/9712c435c79dfd2d7d9a7991688a2f8f0c0558b3))
+
 # [1.5.0](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.4.0...v1.5.0) (2023-08-17)
 
 
