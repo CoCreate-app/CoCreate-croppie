@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.5.1...v1.6.0) (2023-08-21)
+
+
+### Features
+
+* Update cocreate dependencies for the latest features and bug fixes ([91310a6](https://github.com/CoCreate-app/CoCreate-croppie/commit/91310a679e886d6ee14525d7a4c1fbe4297f0b76))
+
 ## [1.5.1](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.5.0...v1.5.1) (2023-08-21)
 
 
