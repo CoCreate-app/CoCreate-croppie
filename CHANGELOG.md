@@ -1,3 +1,11 @@
+## [1.6.2](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.6.1...v1.6.2) (2023-09-18)
+
+
+### Bug Fixes
+
+*  Add path and pathname ([c892837](https://github.com/CoCreate-app/CoCreate-croppie/commit/c89283733ef784bfaf39a7e21fdc88ac5612b280))
+* Update CoCreate depndencies to latest versions ([581ef7f](https://github.com/CoCreate-app/CoCreate-croppie/commit/581ef7f73f67bfc819f66ab2197d113699e195e9))
+
 ## [1.6.1](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.6.0...v1.6.1) (2023-08-21)
 
 
