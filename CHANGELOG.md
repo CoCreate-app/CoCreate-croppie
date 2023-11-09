@@ -1,3 +1,11 @@
+## [1.7.6](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.7.5...v1.7.6) (2023-11-09)
+
+
+### Bug Fixes
+
+* meta name typo ([7fca367](https://github.com/CoCreate-app/CoCreate-croppie/commit/7fca36731734ab23931eb447e05b1cbd11d0f795))
+* update host ([00fad03](https://github.com/CoCreate-app/CoCreate-croppie/commit/00fad030bbf29d56339188cef82cd68751c41427))
+
 ## [1.7.5](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.7.4...v1.7.5) (2023-11-03)
 
 
