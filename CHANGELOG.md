@@ -1,3 +1,15 @@
+# [1.9.0](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.8.0...v1.9.0) (2023-11-25)
+
+
+### Bug Fixes
+
+* update nav, edit button and css path ([82df0d4](https://github.com/CoCreate-app/CoCreate-croppie/commit/82df0d46e8402f18534c5ae3dde25d44455c3f39))
+
+
+### Features
+
+* upgrade dependencies for latest features and fixes ([4a4ea6d](https://github.com/CoCreate-app/CoCreate-croppie/commit/4a4ea6da81289bf9dfcee2035fa8ea7763a115cf))
+
 # [1.8.0](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.7.7...v1.8.0) (2023-11-19)
 
 
