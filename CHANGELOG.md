@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.10.0...v1.10.1) (2024-02-05)
+
+
+### Bug Fixes
+
+* Removed https://cdn.cocreate.app/latest/CoCreate.min.css ([6c3b153](https://github.com/CoCreate-app/CoCreate-croppie/commit/6c3b1539a32f84c71431294718e6271ad8ab2136))
+
 # [1.10.0](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.9.0...v1.10.0) (2023-11-25)
 
 
