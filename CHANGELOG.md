@@ -1,3 +1,11 @@
+## [1.10.3](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.10.2...v1.10.3) (2024-06-12)
+
+
+### Bug Fixes
+
+* bump cocreate dependencies ([33d85ae](https://github.com/CoCreate-app/CoCreate-croppie/commit/33d85ae33e175dd2d2694f46028772a8dcc25c8a))
+* svg icon class ([87f41f7](https://github.com/CoCreate-app/CoCreate-croppie/commit/87f41f78fa5d013010c8dcda41879251eb81ebc6))
+
 ## [1.10.2](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.10.1...v1.10.2) (2024-04-29)
 
 
