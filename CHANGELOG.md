@@ -1,3 +1,16 @@
+# [1.11.0](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.10.3...v1.11.0) (2024-11-04)
+
+
+### Bug Fixes
+
+* pretier.config.js and file formating ([5623aac](https://github.com/CoCreate-app/CoCreate-croppie/commit/5623aac783303736403464f9954096bc86fc6b7d))
+
+
+### Features
+
+* add prettier.config.js and format files ([78e41b8](https://github.com/CoCreate-app/CoCreate-croppie/commit/78e41b80fe45c92e291978f3069c1fc1544efe4a))
+* add prettier.config.js and format files ([e4dbc33](https://github.com/CoCreate-app/CoCreate-croppie/commit/e4dbc3341cbe9c9f2089681ecdfa72698bda4242))
+
 ## [1.10.3](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.10.2...v1.10.3) (2024-06-12)
 
 
