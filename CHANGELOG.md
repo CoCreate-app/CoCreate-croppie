@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.11.0...v1.11.1) (2025-04-11)
+
+
+### Bug Fixes
+
+* dispatch end event on action element rather than document ([97eaead](https://github.com/CoCreate-app/CoCreate-croppie/commit/97eaead9c7daae268d10254fa26b7c0268819545))
+
 # [1.11.0](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.10.3...v1.11.0) (2024-11-04)
 
 
