@@ -1,3 +1,13 @@
+## [1.11.2](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.11.1...v1.11.2) (2025-04-30)
+
+
+### Bug Fixes
+
+* added css-loader ([a0a9b66](https://github.com/CoCreate-app/CoCreate-croppie/commit/a0a9b66abcb3a97b9b7b1e3639a36e5504cccdc2))
+* update query attributes ([526fc8b](https://github.com/CoCreate-app/CoCreate-croppie/commit/526fc8bd412aa76703fcd4f2ed7a3dc4d41d250f))
+* updated cocreate modules versions ([96d373b](https://github.com/CoCreate-app/CoCreate-croppie/commit/96d373bd06281bcb9e223b6c2372a6e87564de0d))
+* webpack.config and devdependencies ([04c8743](https://github.com/CoCreate-app/CoCreate-croppie/commit/04c874386c973caf00d6cd346cd6c82ffe87d9f9))
+
 ## [1.11.1](https://github.com/CoCreate-app/CoCreate-croppie/compare/v1.11.0...v1.11.1) (2025-04-11)
 
 
